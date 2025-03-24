@@ -11,6 +11,7 @@
   <!-- yocto -->
   <project path="sources/yocto/poky" name="poky" revision="1678bb9ee2a1ce476b5b153d9e79bb9813c33574" remote="yp" upstream="scarthgap"/>
   <project path="sources/yocto/meta-openembedded" name="meta-openembedded" revision="735ae0310870ffce07ce0c55c4f87c20ac161ff9" remote="oe" upstream="scarthgap"/>
+  <project path="sources/yocto/meta-realtek-matter" name="meta-realtek-matter" revision="ameba-6.6.30-0.9.0_beta"/>
   <project path="sources/yocto/meta-realtek" name="meta-realtek" revision="scarthgap-6.6.30-0.9.0_beta">
     <copyfile src="tools/envsetup.sh" dest="envsetup.sh" />
   </project>
